@@ -40,13 +40,19 @@ ul {
   font-size: 14px;
 }
 
-.location {
+.partial {
+  box-sizing: border-box;
   display: inline-block;
 }
 
-.name {
-  margin: 0;
-  display: inline-block;
-  box-sizing: border-box;
-  width: 49%;
+.one_half {
+  width: 50%;
+}
+
+.left {
+  padding-right: 5px;
+}
+
+.right {
+  padding-left: 5px;
 }
