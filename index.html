@@ -8,35 +8,42 @@
   <body>
     <form action="" method="post">
       <fieldset>
-        <dl>
+        <dl class="partial one_half left">
           <dt>
             <label for="firstname">First name</label>  
           </dt>
           <dd>
             <input type="text" name="firstname" id="firstname">
-          </dd>
+        </dl><!--
+        --><dl class="partial one_half right">
           <dt>
             <label for="lastname">Last name</label>
           </dt>
           <dd>
             <input type="text" name="lastname" id="lastname">            
           </dd>
+        </dl>
+        <dl>
           <dt>
             <label for="email">Email</label>
           </dt>
           <dd>
             <input type="email" name="email" id="email">
           </dd>
-          <dt class="location">
+        </dl>
+        <dl class="partial one_half left">
+          <dt>
             <label for="city">City</label>
           </dt>
-          <dd class="location">
+          <dd>
             <input type="text" name="city" id="city">
           </dd>
-          <dt class="location">
+        </dl><!--
+        --><dl class="partial state mid">
+          <dt>
             <label for="state">State</label>
           </dt>
-          <dd class="location">
+          <dd>
             <select name="state">
               <option>AK</option>
               <option>AL</option>
@@ -91,10 +98,12 @@
               <option>WY</option>
             </select>
           </dd>
-          <dt class="location">
+        </dl><!--
+        --><dl class="partial zip right">
+          <dt>
             <label for="zip">Zip</label>
           </dt>
-          <dd class="location">
+          <dd>
             <input type="number" name="zip">
           </dd>
         </dl>
