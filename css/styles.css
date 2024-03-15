@@ -56,3 +56,24 @@ ul {
 .right {
   padding-left: 5px;
 }
+
+.mid {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.state {
+  width: 10%;
+}
+
+.zip {
+  width: 40%;
+}
+
+dl {
+  margin-bottom: 0;
+}
+
+dl + dl {
+  margin-top: 0;
+}
