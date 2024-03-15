@@ -27,16 +27,16 @@
           <dd>
             <input type="email" name="email" id="email">
           </dd>
-          <dt>
+          <dt class="location">
             <label for="city">City</label>
           </dt>
-          <dd>
+          <dd class="location">
             <input type="text" name="city" id="city">
           </dd>
-          <dt>
+          <dt class="location">
             <label for="state">State</label>
           </dt>
-          <dd>
+          <dd class="location">
             <select name="state">
               <option>AK</option>
               <option>AL</option>
@@ -91,10 +91,10 @@
               <option>WY</option>
             </select>
           </dd>
-          <dt>
+          <dt class="location">
             <label for="zip">Zip</label>
           </dt>
-          <dd>
+          <dd class="location">
             <input type="number" name="zip">
           </dd>
         </dl>
@@ -154,8 +154,14 @@
             <label><input type="checkbox" name="rails" value="Rails">Rails</label>
           </li>
         </ul>
-        <label for="comment">Comments</label>
-        <textarea id="" cols="80" rows="6" name="comment"></textarea>
+        <dl>
+          <dt>
+            <label for="comment">Comments</label>
+          </dt>
+          <dd>
+            <textarea id="" cols="80" rows="6" name="comment"></textarea>
+          </dd>
+        </dl>
         <input type="hidden" value="2015--01-01" name="timestamp">
         <input type="submit" value="Send">
         <input type="reset">
